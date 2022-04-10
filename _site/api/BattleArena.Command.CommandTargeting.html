@@ -1,0 +1,977 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CommandTargeting
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CommandTargeting
+   ">
+    <meta name="generator" content="docfx 2.59.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="BattleArena.Command.CommandTargeting">
+  
+  
+  <h1 id="BattleArena_Command_CommandTargeting" data-uid="BattleArena.Command.CommandTargeting" class="text-break">Class CommandTargeting
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">CommandTargeting</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.runInEditMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="BattleArena.Command.html">BattleArena.Command</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="BattleArena_Command_CommandTargeting_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CommandTargeting : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/new/mattwinwood/documentation-gen/apiSpec/new?filename=BattleArena_Command_CommandTargeting_HPFraction.md&amp;value=---%0Auid%3A%20BattleArena.Command.CommandTargeting.HPFraction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/blob/mattwinwood/documentation-gen/Assets/Control/Command/CommandTargeting.cs/#L14">View Source</a>
+  </span>
+  <h4 id="BattleArena_Command_CommandTargeting_HPFraction" data-uid="BattleArena.Command.CommandTargeting.HPFraction">HPFraction</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HideInInspector]
+public float HPFraction</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/new/mattwinwood/documentation-gen/apiSpec/new?filename=BattleArena_Command_CommandTargeting_targetingDelegate.md&amp;value=---%0Auid%3A%20BattleArena.Command.CommandTargeting.targetingDelegate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/blob/mattwinwood/documentation-gen/Assets/Control/Command/CommandTargeting.cs/#L17">View Source</a>
+  </span>
+  <h4 id="BattleArena_Command_CommandTargeting_targetingDelegate" data-uid="BattleArena.Command.CommandTargeting.targetingDelegate">targetingDelegate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CommandTargeting.TargetingDelegate targetingDelegate</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BattleArena.Command.CommandTargeting.TargetingDelegate.html">CommandTargeting.TargetingDelegate</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/new/mattwinwood/documentation-gen/apiSpec/new?filename=BattleArena_Command_CommandTargeting_targetLogic.md&amp;value=---%0Auid%3A%20BattleArena.Command.CommandTargeting.targetLogic%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/blob/mattwinwood/documentation-gen/Assets/Control/Command/CommandTargeting.cs/#L13">View Source</a>
+  </span>
+  <h4 id="BattleArena_Command_CommandTargeting_targetLogic" data-uid="BattleArena.Command.CommandTargeting.targetLogic">targetLogic</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HideInInspector]
+public EnemyAITarget targetLogic</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BattleArena.Command.EnemyAITarget.html">EnemyAITarget</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/new/mattwinwood/documentation-gen/apiSpec/new?filename=BattleArena_Command_CommandTargeting_targetSide.md&amp;value=---%0Auid%3A%20BattleArena.Command.CommandTargeting.targetSide%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/blob/mattwinwood/documentation-gen/Assets/Control/Command/CommandTargeting.cs/#L11">View Source</a>
+  </span>
+  <h4 id="BattleArena_Command_CommandTargeting_targetSide" data-uid="BattleArena.Command.CommandTargeting.targetSide">targetSide</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HideInInspector]
+public UnitSide targetSide</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BattleArena.Core.UnitSide.html">UnitSide</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/new/mattwinwood/documentation-gen/apiSpec/new?filename=BattleArena_Command_CommandTargeting_targetType.md&amp;value=---%0Auid%3A%20BattleArena.Command.CommandTargeting.targetType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/blob/mattwinwood/documentation-gen/Assets/Control/Command/CommandTargeting.cs/#L12">View Source</a>
+  </span>
+  <h4 id="BattleArena_Command_CommandTargeting_targetType" data-uid="BattleArena.Command.CommandTargeting.targetType">targetType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HideInInspector]
+public TargetType targetType</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BattleArena.Combat.TargetType.html">TargetType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/new/mattwinwood/documentation-gen/apiSpec/new?filename=BattleArena_Command_CommandTargeting_Build_BattleArena_Command_CommandAITargeting_.md&amp;value=---%0Auid%3A%20BattleArena.Command.CommandTargeting.Build(BattleArena.Command.CommandAITargeting)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/blob/mattwinwood/documentation-gen/Assets/Control/Command/CommandTargeting.cs/#L19">View Source</a>
+  </span>
+  <a id="BattleArena_Command_CommandTargeting_Build_" data-uid="BattleArena.Command.CommandTargeting.Build*"></a>
+  <h4 id="BattleArena_Command_CommandTargeting_Build_BattleArena_Command_CommandAITargeting_" data-uid="BattleArena.Command.CommandTargeting.Build(BattleArena.Command.CommandAITargeting)">Build(CommandAITargeting)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Build(CommandAITargeting data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BattleArena.Command.CommandAITargeting.html">CommandAITargeting</a></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/new/mattwinwood/documentation-gen/apiSpec/new?filename=BattleArena_Command_CommandTargeting_GetEntireSide_System_Collections_Generic_List_BattleArena_Combat_Health__System_Collections_Generic_List_BattleArena_Combat_Health__System_Boolean_.md&amp;value=---%0Auid%3A%20BattleArena.Command.CommandTargeting.GetEntireSide(System.Collections.Generic.List%7BBattleArena.Combat.Health%7D%2CSystem.Collections.Generic.List%7BBattleArena.Combat.Health%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/blob/mattwinwood/documentation-gen/Assets/Control/Command/CommandTargeting.cs/#L78">View Source</a>
+  </span>
+  <a id="BattleArena_Command_CommandTargeting_GetEntireSide_" data-uid="BattleArena.Command.CommandTargeting.GetEntireSide*"></a>
+  <h4 id="BattleArena_Command_CommandTargeting_GetEntireSide_System_Collections_Generic_List_BattleArena_Combat_Health__System_Collections_Generic_List_BattleArena_Combat_Health__System_Boolean_" data-uid="BattleArena.Command.CommandTargeting.GetEntireSide(System.Collections.Generic.List{BattleArena.Combat.Health},System.Collections.Generic.List{BattleArena.Combat.Health},System.Boolean)">GetEntireSide(List&lt;Health&gt;, List&lt;Health&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Health&gt; GetEntireSide(List&lt;Health&gt; enemyUnits, List&lt;Health&gt; allyUnits, bool findDeadUnits = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="BattleArena.Combat.Health.html">Health</a>&gt;</td>
+        <td><span class="parametername">enemyUnits</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="BattleArena.Combat.Health.html">Health</a>&gt;</td>
+        <td><span class="parametername">allyUnits</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">findDeadUnits</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="BattleArena.Combat.Health.html">Health</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/new/mattwinwood/documentation-gen/apiSpec/new?filename=BattleArena_Command_CommandTargeting_GetRandomUnit_System_Collections_Generic_List_BattleArena_Combat_Health__System_Collections_Generic_List_BattleArena_Combat_Health__System_Boolean_.md&amp;value=---%0Auid%3A%20BattleArena.Command.CommandTargeting.GetRandomUnit(System.Collections.Generic.List%7BBattleArena.Combat.Health%7D%2CSystem.Collections.Generic.List%7BBattleArena.Combat.Health%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/blob/mattwinwood/documentation-gen/Assets/Control/Command/CommandTargeting.cs/#L68">View Source</a>
+  </span>
+  <a id="BattleArena_Command_CommandTargeting_GetRandomUnit_" data-uid="BattleArena.Command.CommandTargeting.GetRandomUnit*"></a>
+  <h4 id="BattleArena_Command_CommandTargeting_GetRandomUnit_System_Collections_Generic_List_BattleArena_Combat_Health__System_Collections_Generic_List_BattleArena_Combat_Health__System_Boolean_" data-uid="BattleArena.Command.CommandTargeting.GetRandomUnit(System.Collections.Generic.List{BattleArena.Combat.Health},System.Collections.Generic.List{BattleArena.Combat.Health},System.Boolean)">GetRandomUnit(List&lt;Health&gt;, List&lt;Health&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Health&gt; GetRandomUnit(List&lt;Health&gt; enemyUnits, List&lt;Health&gt; allyUnits, bool findDeadUnits = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="BattleArena.Combat.Health.html">Health</a>&gt;</td>
+        <td><span class="parametername">enemyUnits</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="BattleArena.Combat.Health.html">Health</a>&gt;</td>
+        <td><span class="parametername">allyUnits</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">findDeadUnits</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="BattleArena.Combat.Health.html">Health</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/new/mattwinwood/documentation-gen/apiSpec/new?filename=BattleArena_Command_CommandTargeting_GetUnitOverHPFraction_System_Collections_Generic_List_BattleArena_Combat_Health__System_Collections_Generic_List_BattleArena_Combat_Health__System_Boolean_.md&amp;value=---%0Auid%3A%20BattleArena.Command.CommandTargeting.GetUnitOverHPFraction(System.Collections.Generic.List%7BBattleArena.Combat.Health%7D%2CSystem.Collections.Generic.List%7BBattleArena.Combat.Health%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/blob/mattwinwood/documentation-gen/Assets/Control/Command/CommandTargeting.cs/#L90">View Source</a>
+  </span>
+  <a id="BattleArena_Command_CommandTargeting_GetUnitOverHPFraction_" data-uid="BattleArena.Command.CommandTargeting.GetUnitOverHPFraction*"></a>
+  <h4 id="BattleArena_Command_CommandTargeting_GetUnitOverHPFraction_System_Collections_Generic_List_BattleArena_Combat_Health__System_Collections_Generic_List_BattleArena_Combat_Health__System_Boolean_" data-uid="BattleArena.Command.CommandTargeting.GetUnitOverHPFraction(System.Collections.Generic.List{BattleArena.Combat.Health},System.Collections.Generic.List{BattleArena.Combat.Health},System.Boolean)">GetUnitOverHPFraction(List&lt;Health&gt;, List&lt;Health&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Health&gt; GetUnitOverHPFraction(List&lt;Health&gt; enemyUnits, List&lt;Health&gt; allyUnits, bool findDeadUnits = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="BattleArena.Combat.Health.html">Health</a>&gt;</td>
+        <td><span class="parametername">enemyUnits</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="BattleArena.Combat.Health.html">Health</a>&gt;</td>
+        <td><span class="parametername">allyUnits</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">findDeadUnits</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="BattleArena.Combat.Health.html">Health</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/new/mattwinwood/documentation-gen/apiSpec/new?filename=BattleArena_Command_CommandTargeting_GetUnitUnderHPFraction_System_Collections_Generic_List_BattleArena_Combat_Health__System_Collections_Generic_List_BattleArena_Combat_Health__System_Boolean_.md&amp;value=---%0Auid%3A%20BattleArena.Command.CommandTargeting.GetUnitUnderHPFraction(System.Collections.Generic.List%7BBattleArena.Combat.Health%7D%2CSystem.Collections.Generic.List%7BBattleArena.Combat.Health%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/blob/mattwinwood/documentation-gen/Assets/Control/Command/CommandTargeting.cs/#L83">View Source</a>
+  </span>
+  <a id="BattleArena_Command_CommandTargeting_GetUnitUnderHPFraction_" data-uid="BattleArena.Command.CommandTargeting.GetUnitUnderHPFraction*"></a>
+  <h4 id="BattleArena_Command_CommandTargeting_GetUnitUnderHPFraction_System_Collections_Generic_List_BattleArena_Combat_Health__System_Collections_Generic_List_BattleArena_Combat_Health__System_Boolean_" data-uid="BattleArena.Command.CommandTargeting.GetUnitUnderHPFraction(System.Collections.Generic.List{BattleArena.Combat.Health},System.Collections.Generic.List{BattleArena.Combat.Health},System.Boolean)">GetUnitUnderHPFraction(List&lt;Health&gt;, List&lt;Health&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Health&gt; GetUnitUnderHPFraction(List&lt;Health&gt; enemyUnits, List&lt;Health&gt; allyUnits, bool findDeadUnits = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="BattleArena.Combat.Health.html">Health</a>&gt;</td>
+        <td><span class="parametername">enemyUnits</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="BattleArena.Combat.Health.html">Health</a>&gt;</td>
+        <td><span class="parametername">allyUnits</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">findDeadUnits</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="BattleArena.Combat.Health.html">Health</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/new/mattwinwood/documentation-gen/apiSpec/new?filename=BattleArena_Command_CommandTargeting_GetUnitWithHighestHP_System_Collections_Generic_List_BattleArena_Combat_Health__System_Collections_Generic_List_BattleArena_Combat_Health__System_Boolean_.md&amp;value=---%0Auid%3A%20BattleArena.Command.CommandTargeting.GetUnitWithHighestHP(System.Collections.Generic.List%7BBattleArena.Combat.Health%7D%2CSystem.Collections.Generic.List%7BBattleArena.Combat.Health%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/blob/mattwinwood/documentation-gen/Assets/Control/Command/CommandTargeting.cs/#L104">View Source</a>
+  </span>
+  <a id="BattleArena_Command_CommandTargeting_GetUnitWithHighestHP_" data-uid="BattleArena.Command.CommandTargeting.GetUnitWithHighestHP*"></a>
+  <h4 id="BattleArena_Command_CommandTargeting_GetUnitWithHighestHP_System_Collections_Generic_List_BattleArena_Combat_Health__System_Collections_Generic_List_BattleArena_Combat_Health__System_Boolean_" data-uid="BattleArena.Command.CommandTargeting.GetUnitWithHighestHP(System.Collections.Generic.List{BattleArena.Combat.Health},System.Collections.Generic.List{BattleArena.Combat.Health},System.Boolean)">GetUnitWithHighestHP(List&lt;Health&gt;, List&lt;Health&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Health&gt; GetUnitWithHighestHP(List&lt;Health&gt; enemyUnits, List&lt;Health&gt; allyUnits, bool findDeadUnits = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="BattleArena.Combat.Health.html">Health</a>&gt;</td>
+        <td><span class="parametername">enemyUnits</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="BattleArena.Combat.Health.html">Health</a>&gt;</td>
+        <td><span class="parametername">allyUnits</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">findDeadUnits</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="BattleArena.Combat.Health.html">Health</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/new/mattwinwood/documentation-gen/apiSpec/new?filename=BattleArena_Command_CommandTargeting_GetUnitWithLowestHP_System_Collections_Generic_List_BattleArena_Combat_Health__System_Collections_Generic_List_BattleArena_Combat_Health__System_Boolean_.md&amp;value=---%0Auid%3A%20BattleArena.Command.CommandTargeting.GetUnitWithLowestHP(System.Collections.Generic.List%7BBattleArena.Combat.Health%7D%2CSystem.Collections.Generic.List%7BBattleArena.Combat.Health%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/blob/mattwinwood/documentation-gen/Assets/Control/Command/CommandTargeting.cs/#L97">View Source</a>
+  </span>
+  <a id="BattleArena_Command_CommandTargeting_GetUnitWithLowestHP_" data-uid="BattleArena.Command.CommandTargeting.GetUnitWithLowestHP*"></a>
+  <h4 id="BattleArena_Command_CommandTargeting_GetUnitWithLowestHP_System_Collections_Generic_List_BattleArena_Combat_Health__System_Collections_Generic_List_BattleArena_Combat_Health__System_Boolean_" data-uid="BattleArena.Command.CommandTargeting.GetUnitWithLowestHP(System.Collections.Generic.List{BattleArena.Combat.Health},System.Collections.Generic.List{BattleArena.Combat.Health},System.Boolean)">GetUnitWithLowestHP(List&lt;Health&gt;, List&lt;Health&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;Health&gt; GetUnitWithLowestHP(List&lt;Health&gt; enemyUnits, List&lt;Health&gt; allyUnits, bool findDeadUnits = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="BattleArena.Combat.Health.html">Health</a>&gt;</td>
+        <td><span class="parametername">enemyUnits</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="BattleArena.Combat.Health.html">Health</a>&gt;</td>
+        <td><span class="parametername">allyUnits</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">findDeadUnits</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="BattleArena.Combat.Health.html">Health</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/new/mattwinwood/documentation-gen/apiSpec/new?filename=BattleArena_Command_CommandTargeting_Initialize.md&amp;value=---%0Auid%3A%20BattleArena.Command.CommandTargeting.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/blob/mattwinwood/documentation-gen/Assets/Control/Command/CommandTargeting.cs/#L29">View Source</a>
+  </span>
+  <a id="BattleArena_Command_CommandTargeting_Initialize_" data-uid="BattleArena.Command.CommandTargeting.Initialize*"></a>
+  <h4 id="BattleArena_Command_CommandTargeting_Initialize" data-uid="BattleArena.Command.CommandTargeting.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/new/mattwinwood/documentation-gen/apiSpec/new?filename=BattleArena_Command_CommandTargeting.md&amp;value=---%0Auid%3A%20BattleArena.Command.CommandTargeting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Matt-Greggs/JRPG_Battle_Arena/blob/mattwinwood/documentation-gen/Assets/Control/Command/CommandTargeting.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

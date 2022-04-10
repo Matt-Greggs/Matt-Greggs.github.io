@@ -1,0 +1,1362 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/git/jrpg_docs/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.AnimationEventType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.AnimationEventType.html",
+          "hash": "m66x4QczD35ApCL1E9C75pNyGhYIgYQ96Kya4uo1u9o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.BehaviourType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.BehaviourType.html",
+          "hash": "Raa5QXJ0au7Ccb7ySTxJCA9Mb+9W6kvNbLI6ODCkdZA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.CombatTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.CombatTarget.html",
+          "hash": "JHputoKys1bSKb5r8XuUPJs0osi4haTvxUmo1iMgT00="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.Comparison.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.Comparison.html",
+          "hash": "di6djN7P7o8ZollxFtwZTBgTT058QC7LLCRW/XH9Xcg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.ComparisonType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.ComparisonType.html",
+          "hash": "wRTT+JqXE+vIQLRGSxZymgr0TyjbaCASu/7QlNU6GVI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.Crystal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.Crystal.html",
+          "hash": "wEWSlOvoehd8HoIULBYwaCG3RkroqaZ6W4QAf3e/B4M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.Crystals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.Crystals.html",
+          "hash": "ij+cRVsXJTBAwXR9aU7Q1aRiJYyrssZ8VNhQgLI/VtI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.DamageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.DamageType.html",
+          "hash": "EqT08VkCpPjwcSKpGxvO4FoLk0dsnQfvK5CRMdphPEc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.Energy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.Energy.html",
+          "hash": "983EtvFXo00b+0NvHL+rZAVe97iWVUtZPWBqzWtVgVM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.FailureReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.FailureReason.html",
+          "hash": "eo+dY4ksRJVGQid/hVSFjZrddE1c2htUCXKAVS9sIhQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.Health.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.Health.html",
+          "hash": "wmyCcpF2Rbxa+SigQ3zY9s/hmM6rueVlq/YD26ZHxM0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.InstructionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.InstructionType.html",
+          "hash": "F6qCGOkuZYy/aCzGO5O+D6Ah2qmlw3x0TK6HPYazQSo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.ParticleCollisionHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.ParticleCollisionHandler.html",
+          "hash": "PoEC3B1d9iBuxHzRCyFPaWiDN5PgfFXKWHceQ8U2YRw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.Rage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.Rage.html",
+          "hash": "5WyRv/9ya5Ko4YrMTYZdSsov7wxQJ7Xwy2LDijlSQLg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.Rarity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.Rarity.html",
+          "hash": "bgrpKWugSbXMA+hYDMGakRDgYXh4vfiOt93tgSVw/b0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.Resource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.Resource.html",
+          "hash": "At8rb7zraPhDpsZsA+KPtpI1JpW9R5WLfVbWjtew8jA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.ResourceContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.ResourceContainer.html",
+          "hash": "I46zv2TW0F1NdXFzQgktMMZGNIRt2q2WE/HRc3pu2RU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.ResourceCost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.ResourceCost.html",
+          "hash": "EYMlSOh9WJVBbWw+5aLV6C0TA8os2n7rdiwDnl7bNPA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.ResourceModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.ResourceModule.html",
+          "hash": "urzmaDvZYUnHtUfLOzSSwQwngxuxitH8hwvLuQxtqhg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.Status.html",
+          "hash": "uX7Q4Eilc09aMTm8OiA8WtOJgh7iLYvKu331eam1ElA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.StatusType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.StatusType.html",
+          "hash": "WuqgsKGfWQM7RwJsWEbqKig3005bObkTGVcT0oI0rkk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.TargetType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.TargetType.html",
+          "hash": "j3MlXEEjiBsGovyyhqA/G26gOK4i43leU74IESU1stc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.TargetingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.TargetingType.html",
+          "hash": "WMntMF1SglspYmxbYAmNjZ/4Te50T6Nu1uQ5BGkH3GQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.TriggerCondition.TriggerDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.TriggerCondition.TriggerDelegate.html",
+          "hash": "Qyt/Ltd4fDteg7dHn4+vaf2++q08KsVUBI6hwf3Qfy4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.TriggerCondition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.TriggerCondition.html",
+          "hash": "1MZfVJeBJDC+8VJChWGd33Ufg39BEsfDtdWM9VqTAhs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.TriggerConditionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.TriggerConditionData.html",
+          "hash": "KdoNHOQwsparArZUJsmCfJBpJcm/5f3s/dZ9ETf9eqQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Combat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Combat.html",
+          "hash": "4u0gIvizRZxaXPMiRUgYZBmD7ajCX9A5ExrrMLAq6NE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.AffinityHit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.AffinityHit.html",
+          "hash": "tOmqSOvi+QVbDXpbWNh+PcHOHsmm7YNjMrzd1ND8Uww="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.AffinityModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.AffinityModule.html",
+          "hash": "MpY1Y8gHC5RsXScEthghLwWOZFX3gSCIFgQW4PnmXtI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.ApplyStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.ApplyStatus.html",
+          "hash": "hOKROE/pFsWY4PsXRmvjjJbMAw4EMFXYtj5O1qt88vE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.Cleanse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.Cleanse.html",
+          "hash": "RYJcwv2x191YvIKrKKWYoBJLusLsTM4Gtyx+SN2HsYc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.CommandAITargeting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.CommandAITargeting.html",
+          "hash": "YQl/K9tt2lJISfF73cSAEiCiJh1DJOFL3ODur2PHH7k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.CommandCastability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.CommandCastability.html",
+          "hash": "QBlpvyVzhJfB9PdS+PzD5kztZDn1MVLtonErHxsBomY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.CommandInstruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.CommandInstruction.html",
+          "hash": "zhQvNdeWUbFWFHTy7I73QHx9d8hPZX/zNR8VT8EwRgg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.CommandMod.ModDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.CommandMod.ModDelegate.html",
+          "hash": "PhFOaDa/EkcyXde8AFyerHq8xPEpnRzm1vzBffzHG84="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.CommandMod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.CommandMod.html",
+          "hash": "aKyxiKyrleOGwStJ+SvM6oU9gTCDUwmegCq9bNPzjpU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.CommandModData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.CommandModData.html",
+          "hash": "pU1uIzQSnccXO3kkUcwEw07Y7Fr7Y/E/2tRLPuXsEzQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.CommandModType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.CommandModType.html",
+          "hash": "jlH98CmUIGdDw3eM8+LJh+qYpmvwCB1ApdKh2v2QhaE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.CommandPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.CommandPanel.html",
+          "hash": "LGNHzEOSRQm6p+roiVaSTsEv2OJWJynAW7aUAlYJcww="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.CommandSpawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.CommandSpawner.html",
+          "hash": "uxXPBsJZwo8bMVaGfKY56UGbJ51yl20K3P7D8Z1WWbI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.CommandStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.CommandStats.html",
+          "hash": "0Sral3IktUsuEKBQ2QO9b3efy/ub8Zf8DIoxvaNTD5w="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.CommandTargeting.TargetingDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.CommandTargeting.TargetingDelegate.html",
+          "hash": "dN6sx+8ZqI7cRowKyQrRkIb/tG4JMEjr+H7kUzagvHE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.CommandTargeting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.CommandTargeting.html",
+          "hash": "QhZDaC+Emv6AuOXeA5DlEGrp/kXuHm9YON7u5KpuNZY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.CommandVisuals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.CommandVisuals.html",
+          "hash": "TrKaMLqj23UWaCHx+n+K2K+8hUVCvohRuTkhug9GtVw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.DamageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.DamageType.html",
+          "hash": "v5zDWN7OnGPk/oycXAHEgiih+QqGlA4IJvcSX47/joc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.DealDamage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.DealDamage.html",
+          "hash": "u0tLJPT7JzpJAiqWa12HYctEosdvwE4f0yh/8qGMrt0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.Effect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.Effect.html",
+          "hash": "5iVUBFGkWVDk46X1omuobdpiTxLIa6bjXA4vWM6sE4A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.ElementalType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.ElementalType.html",
+          "hash": "sdqilIFexAMr59eb4mDXIi4gXQ31VT23cyUNPWG7lcc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.EnemyAITarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.EnemyAITarget.html",
+          "hash": "Gxs7E02HoOcC9/XbtZHbqQXpSn+nKun2djQgQwT0r4A="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.EnemyCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.EnemyCommand.html",
+          "hash": "m6UGDScFmFf5oPttjHN/nMXJuFRq3fHELRE5GIf3Enw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.EnemyCommandData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.EnemyCommandData.html",
+          "hash": "YR7vrj3omBsowJz/Th2M7679ZZA/4Co5nlc6zP+6aGQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.Heal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.Heal.html",
+          "hash": "kr7oJt1rGLSbb0Fi8zIiaW4ej1TgfR07iBK8rbbQB/E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.Instruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.Instruction.html",
+          "hash": "nDOqt+Qxr9uPoohyJCpsmpLwF7o31/XQG1OhgRli5v0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.Mechanics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.Mechanics.html",
+          "hash": "4O90vFVL+ZXLbUogN1ckGaSRg0Km3SFgTvQ8Ag8wfZk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.ModSocket.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.ModSocket.html",
+          "hash": "U7cD56UTPWsMznwXOCAKDEQf2eGRfxG4k+S3FyACL2E="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.Swift.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.Swift.html",
+          "hash": "gn5Gp7OX8fsehcdjm11EV3u52dEHGTC8oEn2O/cJHZA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.UnitCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.UnitCommand.html",
+          "hash": "xB06JYUpt1qSaFiBi0Kg6paBw5GNrMrWiOs3deAjHsk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.UnitCommandContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.UnitCommandContainer.html",
+          "hash": "e7uQk9Df2p67Qca8qmsigAPZ0UdHJg3URTZ9LGwq4Gc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.VFXInstructions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.VFXInstructions.html",
+          "hash": "N65djv3/GtGPjbCYHmhkGGYllHiKnpnHHf7f24+RSRQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.VisualEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.VisualEffect.html",
+          "hash": "u0C5wNhgJO7z41JiHWKPJyJ2K6NVfqn/uji3v2ErN98="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Command.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Command.html",
+          "hash": "vMan2DHFvn6x+ex/pJtSUCEvB6R6DMr34ZajbVXbj/4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Control.CommandType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Control.CommandType.html",
+          "hash": "2n9FyYrG6D+yXFBj6Ap/6n7WOIfTmhfn0da8VQMTxFY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Control.Commander.ActionDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Control.Commander.ActionDelegate.html",
+          "hash": "A6sCCt8U2J04HE9k8CZk/pAfDSMOSD2vD9rWhtQLRr0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Control.Commander.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Control.Commander.html",
+          "hash": "SkDI/Wlws6S4rs5ipm2CCgPtiv1yuhHVT1Cp4o9yjSg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Control.CursorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Control.CursorType.html",
+          "hash": "sH/90caTXsqF3f7sBBHOoxaJApPEtorJ15uyqHRjEgE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Control.DamageBonus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Control.DamageBonus.html",
+          "hash": "AIBcqdRxbsp0cweN5L1fYjj+5De2R4i+zpyIYaCDTNU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Control.EffectSpawnType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Control.EffectSpawnType.html",
+          "hash": "4Oj1Aqm6yX5WxflbFf+wHJAk9RdthTfNTw8uKRofjqk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Control.IRaycastable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Control.IRaycastable.html",
+          "hash": "xUxviCsId9JWX1qVkfaWjGuj1/dytE8XSNcmvWtsd00="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Control.PlayerUIController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Control.PlayerUIController.html",
+          "hash": "TQ0aK9+ob0ojyeWsFIhsLgTxb81Zfh4Iw1pwH6yI4Yw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Control.UIMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Control.UIMode.html",
+          "hash": "Pa2QTaZkFfYreamoSCg8dU/jdDMOzjecNwpHi/SZONA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Control.UnitController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Control.UnitController.html",
+          "hash": "WlqsO4jpXutBcTkaJ2dCt1uvttAQ6lObyvam55cwuDY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Control.UnitStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Control.UnitStats.html",
+          "hash": "Um+0GpdeunEM2LWEQYr1JtVIcsW1HMFKgakKnUPACig="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Control.UnitTargeting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Control.UnitTargeting.html",
+          "hash": "Nc2p8M9BSJxHb0seeN/kOyUvgkyOzWzCxIkm/eZmi0I="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Control.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Control.html",
+          "hash": "Ep6tClj0E/bQGTGgg/CVlA0OZup9+zK8UOB7OSWWbag="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Core.AIBrain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Core.AIBrain.html",
+          "hash": "RmtelO5rud3vI9srK54ybu5rl8UpWqAWEeXOw4uVXrY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Core.BattleController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Core.BattleController.html",
+          "hash": "+QKcSDleDGpM2IjLRI6S92DJdlfeP+T8U6SGBh/Da/Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Core.Body.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Core.Body.html",
+          "hash": "F/p+XPtDkOz3CgPvq8XXLUISISI4CkK9RTukBUWA+Z4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Core.BodyLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Core.BodyLocation.html",
+          "hash": "uY+uJ7HoM/0+lXmHXVL3EKZqDvJuOBdA1UXl0F//DyA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Core.Clock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Core.Clock.html",
+          "hash": "0J7JQI/UpyDU467EG7j/YSKNfWOsCiHsvL8QgnzkMOo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Core.EnemyAIController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Core.EnemyAIController.html",
+          "hash": "gToscxTwsdBK7hZ0CGPOO/yLbE7LbJPlgVfhwXJeLas="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Core.OverrideSpawnLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Core.OverrideSpawnLocation.html",
+          "hash": "l4OrOqYqT1tWvvoKVUKqi9g0osF59zvLab8Agt5YY5k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Core.Phase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Core.Phase.html",
+          "hash": "GRaoeDOb6JSpRZdr1ZW5zCKGowpEsUuPNe7fYaDnFws="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Core.PhaseData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Core.PhaseData.html",
+          "hash": "stSjMDMuK0GxbCjyJazFQbEqVUB9zeNotQBRY+NE0c4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Core.ProgressBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Core.ProgressBar.html",
+          "hash": "eUBxvvzeg1PutWR299j1JN7dJCctoaLWvg6C9Ta/RCg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Core.Recurrence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Core.Recurrence.html",
+          "hash": "i5rAOIx3KleGHvFweZFbT1EXlyLDMWAwJ9cbS1yZRu0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Core.TraverseType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Core.TraverseType.html",
+          "hash": "YjdvCBibOx8GFM740L5P6jx3ZyibBomEPwbHfGpWyIM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Core.TurnManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Core.TurnManager.html",
+          "hash": "En09CbQKw/X5dgVsq5Hsx0IPNpR2vYouWEGTCNNYHeE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Core.TurnMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Core.TurnMode.html",
+          "hash": "/+Ppwy0uxOoCupiunIDjsrDynxtxoo2UnUy6Dj4ZR/Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Core.UnitSide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Core.UnitSide.html",
+          "hash": "Wp/Oydl6YZstQotWVfltoZ9z7Ftxk90rjfzwEHnyBeg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Core.html",
+          "hash": "zIsLMrvWhR9vq4c4x78bZYdTFKW5yHMoGdJPVvP9ExI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Direction.CameraMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Direction.CameraMapping.html",
+          "hash": "LwgXPdq408X2nKxWq6VwfAXzl9qUGY8mLEHKfuD5hTk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Direction.CameraSwitcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Direction.CameraSwitcher.html",
+          "hash": "xc4ny6R4Q0WY3ey1ccC5Tqs9kpxIaKqtDhYiMk4b8uE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Direction.CameraType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Direction.CameraType.html",
+          "hash": "SnyuwMzFq2CZHQMIzJRbZy9TxXoQYLPFfbH07tt4yoY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Direction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Direction.html",
+          "hash": "xzX6x368yHlkjIBiClAnX7Zh4khDdw3mkUglUyB+M/E="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Movement.Mover.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Movement.Mover.html",
+          "hash": "GEqYkBde4HxCG4e8edjoWDzSDi5jH7e1c3oCEydQulc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.Movement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.Movement.html",
+          "hash": "a4z5CM6uTthNPODRk8/t/ij6nApP1P0r4MaJtIcJpg0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.UI.CurrentActingUnitUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.UI.CurrentActingUnitUI.html",
+          "hash": "pTADXY1CcEm6WxrIcURLx7D1vS3V/bgvS5ZKEOL4v6I="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.UI.CurrentTargetUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.UI.CurrentTargetUI.html",
+          "hash": "hbSjacaMcDe7v7yLjamKsOt7NwwgyTetgcZ1w7j8eQI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.UI.DamageTextSpawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.UI.DamageTextSpawner.html",
+          "hash": "Q6eN9NV7OKi754Ems4jvINCPHyg8h1nkkzdq81TPxio="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.UI.HealthBarUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.UI.HealthBarUI.html",
+          "hash": "tIiLj6yQR5xYo2z66By0I1d1k9J8iMd+pC4kANYloD4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BattleArena.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BattleArena.UI.html",
+          "hash": "CrrztvdxEBtVXOXPqjSUPtOFDFXIpEprIy1pYk8Wozw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityTemplateProjects.CameraFly.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityTemplateProjects.CameraFly.html",
+          "hash": "fEEPWaxZeqJCxpm1X4EavUUMalbO9Y7LBFXn5Q9wXoM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityTemplateProjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityTemplateProjects.html",
+          "hash": "eZblYEZYymJ5tC+oFYxpO71TXkD54pp7nACUAF9NEGI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "FPsDB36vGjdq5PDIDYrCVi1MFHqvibqNMOaRT4/En/U="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "z4de3QuDhPwjRUnrksh4xpMhQ/fCYAwlAyNl6bbmBf0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "3Gt/QGMqmoshMir7TKgzM/X9a+4XuRxq/u634EBlTtk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "AWev5qMHrl2qhJcM/MAvkyPen4iZcGHrQ0C5yeSAU2Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 103,
+          "skipped_file_count": 102
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
