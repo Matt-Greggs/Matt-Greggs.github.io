@@ -3,7 +3,7 @@
     {
       "src": [
         {
-            "src" : "../../jrpg",
+            "src" : "../jrpg",
             "files": [
                 "**.csproj"
             ]
